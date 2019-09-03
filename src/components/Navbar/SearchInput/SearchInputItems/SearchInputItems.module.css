@@ -1,0 +1,41 @@
+.Image{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+    transform: translate(-25%, -5%);
+}
+.Container {
+    padding: inherit;
+    width: 100%;
+    margin: 2px;
+}
+
+.Container hr {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.ImgContainer{
+    font-size: 20px;
+    text-align: left;
+    display: inline-flex;
+    margin: 5px;
+}
+
+.Text {
+    font-size: 20px;
+    text-align: left;
+    margin: auto;
+    cursor: pointer;
+}
+
+/*.Text :hover{*/
+/*    background:  rgba(0, 0, 0, 0.1);*/
+/*    cursor: pointer;*/
+/*}*/
+
+.BrandName{
+    color:gray;
+    font-size: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,9 @@
+export const ADD_ITEM = 'ADD_ITEM';
+export const CLOSE_ADD_ITEM = 'CLOSE_ADD_ITEM';
+export const FETCH_ITEM = 'FETCH_ITEM';
+export const SELECT_ITEM = 'SELECT_ITEM';
+export const SEARCH_ITEM = 'SEARCH_ITEM';
+export const NEXT_DAY = 'NEXT_DAY';
+export const PREVIOUS_DAY = 'PREVIOUS_DAY';
+export const USER_PROFILE = 'USER_PROFILE';
+export const REQUEST_FAILED = 'REQUEST_FAILED';

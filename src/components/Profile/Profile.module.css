@@ -1,0 +1,149 @@
+.Profile {
+    /*position: fixed;*/
+    /*width: 280px;*/
+    /*max-width: 70%;*/
+    /*height: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*z-index: 200;*/
+    background-color: #f1f1f1;
+    /*padding: 32px 16px;*/
+    /*box-sizing: border-box;*/
+    /*transition: transform 0.3s ease-out;*/
+    padding: 10px;
+    height: 100%;
+    margin: 0;
+}
+
+@media (min-width: 500px) {
+    /*.Profile {*/
+    /*    display: none;*/
+    /*}*/
+}
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
+}
+
+
+
+/*.bubble {*/
+/*    position: absolute;*/
+/*    top: 40px;*/
+/*    padding: 30px 30px;*/
+/*    border-radius: 50%;*/
+/*    background-color: grey;*/
+/*    opacity: 0.8;*/
+/*    color: white;*/
+/*}*/
+
+/*.bubble div {*/
+/*    position: absolute;*/
+/*    transform: translate(-50%, -50%);*/
+/*}*/
+/*.bubble p {*/
+/*    margin: -5px;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.leftBubble {*/
+/*    left: 25%;*/
+/*    transform: translate(-50%, 0%);*/
+/*}*/
+
+/*.rightBubble {*/
+/*    right: 25%;*/
+/*    transform: translate(50%, 0%);*/
+/*}*/
+
+/*.imageBubble {*/
+/*    left: 50%;*/
+/*    top: 20px;*/
+/*    transform: translate(-50%, 0%);*/
+/*    position: absolute;*/
+/*    padding: 50px 50px;*/
+/*    overflow: hidden;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.imageBubble img {*/
+/*    width: 110px;*/
+/*    position: absolute;*/
+/*    left: -10px;*/
+/*    top: 0;*/
+/*}*/
+
+/*.name {*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 0%);*/
+/*    top: 120px;*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*.lastName{*/
+/*    display: inline*/
+/*}*/
+
+/*.hrLine{*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 0%);*/
+/*    top: 160px;*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*@media (max-width: 575px) {*/
+/*    .imageBubble {*/
+/*        left: 13%;*/
+/*        top: -75px;*/
+/*        padding: 30px 30px;*/
+/*    }*/
+/*    .imageBubble img {*/
+/*        width: 85px;*/
+/*    }*/
+
+/*    .bubble {*/
+/*        top: -75px;*/
+/*        background-color: rgba(0, 0, 0, 0.3);*/
+/*        opacity: 1;*/
+/*        color: white;*/
+/*    }*/
+
+/*    .leftBubble {*/
+/*        left: 70%;*/
+/*        transform: translate(-50%, 0%);*/
+/*    }*/
+
+/*    .rightBubble {*/
+/*        right: 12%;*/
+/*        transform: translate(50%, 0%);*/
+/*    }*/
+
+/*    .name {*/
+/*        font-size: 20px;*/
+/*        color:white;*/
+/*        top: -60px;*/
+/*        left: 25%;*/
+/*    }*/
+
+/*    .hrLine{*/
+/*        top: 190px;*/
+/*    }*/
+
+/*    .lastName{*/
+/*        display: none;*/
+/*    }*/
+
+/*}*/

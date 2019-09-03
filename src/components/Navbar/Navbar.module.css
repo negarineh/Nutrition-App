@@ -1,0 +1,81 @@
+.Navbar {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    flex-flow: column;
+    background-color: #6200EE;
+}
+
+.Input {
+    box-sizing: border-box;
+    background-image: url('../../assets/images/search.png') ;
+    background-position: 6px 6px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 10px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 4px;
+    width: 30%;
+}
+
+/*.Input:focus {outline: 3px solid #ddd;}*/
+
+.DropdownContent {
+    position: absolute;
+    /*background-color: #f6f6f6;*/
+    min-width: 230px;
+    overflow: auto;
+    /*border: 1px solid #ddd;*/
+    z-index: 1;
+
+    width: 94.5%;
+}
+
+.DateControl {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.DateControl button {
+    color: white;
+    background: none;
+    border: 0;
+}
+
+.DateControl:hover{
+    color: black;
+}
+
+.DateButton {
+    position: fixed;
+    padding: 25px 25px;
+    right: 2%;
+    bottom: 2%;
+    border-radius: 50%;
+    background: rgb(100, 33, 255);
+    font-size: 30px;
+    color: white;
+    z-index: 10;
+    cursor: pointer;
+}
+.DateButton p {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
+}
+
+
+@media (min-width: 500px) {
+    .Navbar {
+        /*flex-flow: row;*/
+    }
+}
