@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Connect to back
+
+This app using Nutritionix API: https://developer.nutritionix.com/docs/v2.
+You must sign up for a free Nutritionix personal API account and use the given App ID and App Key to perform any remote calls.
+(add in \nutritionix\src\store\actions.js)
+
 ## Available Scripts
 
 In the project directory, you can run:
